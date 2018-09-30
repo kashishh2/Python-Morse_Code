@@ -15,4 +15,14 @@ morse ={'A':'.-', 'B':'-...',
         '7':'--...', '8':'---..', '9':'----.',
         '0':'-----', ', ':'--..--', '.':'.-.-.-',
         '?':'..--..', '/':'-..-.', '-':'-....-',
-        '(':'-.--.', ')':'-.--.-'} 
+        '(':'-.--.', ')':'-.--.-'}
+
+# a function to encrypt to morse code
+def encrypt(message):
+    cipher = ''
+    for letter in message:
+        if letter != ' ':
+            cipher += MORSE_CODE_DICT[letter] + ' '
+        else:
+            cipher += ' '
+    return cipher
