@@ -52,11 +52,10 @@ if __name__ == '__main__':
     if opt == 1:
         enc = str(input("Enter the String to be translated:"))
         print("The morse code translation is :")
-        print(encrypt(enc))
+        print(encrypt(enc.upper()))
     elif opt == 2:
         enc = str(input("Enter the string to be decripted:"))
         print("The morse code translation is :")
-        print(decrypt(enc))
+        print(decrypt(enc.upper()))
     else:
         print("Wrong option")
-        
