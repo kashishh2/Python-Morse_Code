@@ -1,26 +1,18 @@
 #Program for encoding and decoding morse code by Kashish Handa
 #https://Github.com/kashishh2
-morseCode = {"A":".-","B":"-...","C":"-.-."}
-morseCode["D"] = "-.."
-morseCode["E"] = "."
-morseCode["F"] = "..-."
-morseCode["G"] = "--."
-morseCode["H"] = "...."
-morseCode["I"] = ".."
-morseCode["J"] = ".---"
-morseCode["K"] = "-.-"
-morseCode["L"] = ".-.."
-morseCode["M"] = "--"
-morseCode["N"] = "-."
-morseCode["O"] = "---"
-morseCode["P"] = ".--."
-morseCode["Q"] = "--.-"
-morseCode["R"] = ".-."
-morseCode["S"] = "..."
-morseCode["T"] = "-"
-morseCode["U"] = "..-"
-morseCode["V"] = "...-"
-morseCode["W"] = ".--"
-morseCode["X"] = "-..-"
-morseCode["Y"] = "-.--"
-morseCode["Z"] = "--.."
+#First we will create a morse code dictionary:
+morse ={'A':'.-', 'B':'-...',
+        'C':'-.-.', 'D':'-..', 'E':'.',
+        'F':'..-.', 'G':'--.', 'H':'....',
+        'I':'..', 'J':'.---', 'K':'-.-',
+        'L':'.-..', 'M':'--', 'N':'-.',
+        'O':'---', 'P':'.--.', 'Q':'--.-',
+        'R':'.-.', 'S':'...', 'T':'-',
+        'U':'..-', 'V':'...-', 'W':'.--',
+        'X':'-..-', 'Y':'-.--', 'Z':'--..',
+        '1':'.----', '2':'..---', '3':'...--',
+        '4':'....-', '5':'.....', '6':'-....',
+        '7':'--...', '8':'---..', '9':'----.',
+        '0':'-----', ', ':'--..--', '.':'.-.-.-',
+        '?':'..--..', '/':'-..-.', '-':'-....-',
+        '(':'-.--.', ')':'-.--.-'} 
